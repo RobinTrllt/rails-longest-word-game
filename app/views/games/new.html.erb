@@ -1,0 +1,16 @@
+
+<div id="letters">
+  <% @letters.each do |letter| %>
+  <h3><%= letter %></h3>
+  <% end %>
+</div>
+
+<div id="consign">
+  <h2>What is the longer word you can find ?</h2>
+</div>
+
+<form action="???">
+  <input type="text" name="???">
+  <input type="submit" value="Ask!">
+</form>
+<%= hidden_field_tag :authenticity_token, form_authenticity_token %>
